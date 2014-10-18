@@ -1,13 +1,5 @@
-//
-//  Tiger.swift
-//  LionsAndTigers
-//
-//  Created by NanYar on 17.10.14.
-//  Copyright (c) 2014 NanYar. All rights reserved.
-//
-
-import Foundation
 import UIKit
+import Foundation
 
 
 struct Tiger
@@ -15,7 +7,7 @@ struct Tiger
     var age = 0
     var name = ""
     var breed = ""
-    var image = UIImage(named: "")
+//    var image = UIImage(named: "")
     
     func chuff()
     {
@@ -28,5 +20,9 @@ struct Tiger
         {
             chuff()
         }
-    }    
+    }
 }
+
+let myTiger = Tiger()
+myTiger.age
+myTiger.chuffANumberOfTimes(numberOfTimes: 5)

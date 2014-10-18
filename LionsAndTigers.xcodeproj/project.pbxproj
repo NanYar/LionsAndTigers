@@ -22,6 +22,7 @@
 		17469B9619F1C1FA002342D6 /* Lioness.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 17469B8E19F1C1FA002342D6 /* Lioness.jpeg */; };
 		17469B9719F1C1FA002342D6 /* MalayanTiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17469B8F19F1C1FA002342D6 /* MalayanTiger.jpg */; };
 		17469B9819F1C1FA002342D6 /* SiberianTiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17469B9019F1C1FA002342D6 /* SiberianTiger.jpg */; };
+		1752125819F30663005DB6F2 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1752125719F30663005DB6F2 /* HelperFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		17469B8E19F1C1FA002342D6 /* Lioness.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lioness.jpeg; sourceTree = "<group>"; };
 		17469B8F19F1C1FA002342D6 /* MalayanTiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MalayanTiger.jpg; sourceTree = "<group>"; };
 		17469B9019F1C1FA002342D6 /* SiberianTiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SiberianTiger.jpg; sourceTree = "<group>"; };
+		1752125619F2FABE005DB6F2 /* Test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Test.playground; sourceTree = "<group>"; };
+		1752125719F30663005DB6F2 /* HelperFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +101,11 @@
 				17469B6619F1B278002342D6 /* AppDelegate.swift */,
 				17469B6819F1B278002342D6 /* ViewController.swift */,
 				17469B8619F1BF68002342D6 /* Tiger.swift */,
+				1752125719F30663005DB6F2 /* HelperFunctions.swift */,
 				17469B6A19F1B278002342D6 /* Main.storyboard */,
 				17469B6D19F1B278002342D6 /* Images.xcassets */,
 				17469B6F19F1B278002342D6 /* LaunchScreen.xib */,
+				1752125619F2FABE005DB6F2 /* Test.playground */,
 				17469B6419F1B278002342D6 /* Supporting Files */,
 			);
 			path = LionsAndTigers;
@@ -256,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17469B6919F1B278002342D6 /* ViewController.swift in Sources */,
+				1752125819F30663005DB6F2 /* HelperFunctions.swift in Sources */,
 				17469B8719F1BF68002342D6 /* Tiger.swift in Sources */,
 				17469B6719F1B278002342D6 /* AppDelegate.swift in Sources */,
 			);

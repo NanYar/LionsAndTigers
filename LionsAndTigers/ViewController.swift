@@ -15,6 +15,9 @@ class ViewController: UIViewController
     @IBOutlet weak var ageLabel: UILabel!
     @IBOutlet weak var breedLabel: UILabel!
     
+    var arrayOfTigers: [Tiger] = []
+    var currentIndex = 0
+    
     
     override func viewDidLoad()
     {
@@ -26,10 +29,13 @@ class ViewController: UIViewController
         tiger1.age = 3
         tiger1.image = UIImage(named: "BengalTiger.jpg")
         
+        arrayOfTigers.append(tiger1)
+        
         myImageView.image = tiger1.image
         nameLabel.text = tiger1.name
         ageLabel.text = "\(tiger1.age)" // = String interpolation // Alternative: String(myTiger.age)
         breedLabel.text = tiger1.breed
+        
         
         var tiger2 = Tiger()
         tiger2.name = "Tigress"
@@ -48,6 +54,8 @@ class ViewController: UIViewController
         tiger4.breed = "Siberian Tiger"
         tiger4.age = 5
         tiger4.image = UIImage(named: "SiberianTiger.jpg")
+        
+        arrayOfTigers += [tiger2, tiger3, tiger4]
     }
 
     override func didReceiveMemoryWarning()
@@ -59,6 +67,37 @@ class ViewController: UIViewController
     
     @IBAction func nextBarButtonItemPressed(sender: UIBarButtonItem)
     {
+        //println("currentIndex: \(currentIndex)")
+        
+        var randomIndex: Int
+        
+        do
+        {
+            randomIndex = Int(arc4random_uniform(UInt32(arrayOfTigers.count)))
+        }
+        while randomIndex == currentIndex
+        
+        currentIndex = randomIndex
+        
+        let randomTiger = arrayOfTigers[randomIndex]
+        
+//        myImageView.image = randomTiger.image
+//        nameLabel.text = randomTiger.name
+//        ageLabel.text = String(randomTiger.age)
+//        breedLabel.text = randomTiger.breed
+        
+        UIView.transitionWithView(self.view, duration: 1, options: UIViewAnimationOptions.TransitionCrossDissolve
+            , animations:
+            {
+                self.myImageView.image = randomTiger.image
+                self.nameLabel.text = randomTiger.name
+                self.ageLabel.text = String(randomTiger.age)
+                self.breedLabel.text = randomTiger.breed
+            }
+            , completion: { (finised: Bool) -> () in } )
+        
+        //println("randomIndex: \(randomIndex)")
+
     }
     
 }
