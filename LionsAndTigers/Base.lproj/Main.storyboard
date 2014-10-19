@@ -38,29 +38,65 @@
                             </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="breed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFa-Y8-Jjo">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="579" width="339" height="21"/>
+                                    <rect key="frame" x="79" y="490" width="339" height="21"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="age" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XnI-4w-4VT">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="550" width="339" height="21"/>
+                                    <rect key="frame" x="79" y="461" width="339" height="21"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u8a-b9-AKP">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="521" width="339" height="21"/>
+                                    <rect key="frame" x="79" y="432" width="339" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="randomFact" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Nb-bg-I1O">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="519" width="339" height="84"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SeZ-Fq-KTo">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="461" width="36" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Breed:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Q1-Op-21r">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="490" width="52" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3jK-D7-2AU">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="432" width="51" height="21"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -72,6 +108,10 @@
                                 <exclude reference="fFa-Y8-Jjo"/>
                                 <exclude reference="XnI-4w-4VT"/>
                                 <exclude reference="u8a-b9-AKP"/>
+                                <exclude reference="3Nb-bg-I1O"/>
+                                <exclude reference="SeZ-Fq-KTo"/>
+                                <exclude reference="3Q1-Op-21r"/>
+                                <exclude reference="3jK-D7-2AU"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -81,6 +121,10 @@
                                 <include reference="fFa-Y8-Jjo"/>
                                 <include reference="XnI-4w-4VT"/>
                                 <include reference="u8a-b9-AKP"/>
+                                <include reference="3Nb-bg-I1O"/>
+                                <include reference="SeZ-Fq-KTo"/>
+                                <include reference="3Q1-Op-21r"/>
+                                <include reference="3jK-D7-2AU"/>
                             </mask>
                         </variation>
                     </view>
@@ -89,11 +133,12 @@
                         <outlet property="breedLabel" destination="fFa-Y8-Jjo" id="MCN-hw-3s4"/>
                         <outlet property="myImageView" destination="lDh-hV-w8O" id="qcg-pA-Lwf"/>
                         <outlet property="nameLabel" destination="u8a-b9-AKP" id="uAw-uA-Wen"/>
+                        <outlet property="randomFactLabel" destination="3Nb-bg-I1O" id="K3S-UV-0yT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="613.5" y="448.5"/>
+            <point key="canvasLocation" x="-196.5" y="439.5"/>
         </scene>
     </scenes>
 </document>
