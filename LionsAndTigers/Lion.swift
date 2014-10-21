@@ -10,7 +10,6 @@ import Foundation
 import UIKit
 
 
-
 class Lion
 {
     var age = 0
@@ -31,16 +30,16 @@ class Lion
     
     func randomFact() -> String
     {
-        var randomFact: String
+        var randomFactString: String
         
         if self.isAlphaMale
         {
-            randomFact = "Male lions are easy to recognize thanks to their distinctive manes. Males with darker manes are more likley to attract females."
+            randomFactString = "Male lions are easy to recognize thanks to their distinctive manes. Males with darker manes are more likley to attract females."
         }
         else
         {
-            randomFact = "Female lionesses form the stable social unit and do not tolerate outside females."
+            randomFactString = "Female lionesses form the stable social unit and do not tolerate outside females."
         }
-        return randomFact
+        return randomFactString
     }
 }
